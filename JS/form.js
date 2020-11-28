@@ -24,7 +24,7 @@ class Form{
             player.updateCount(playerCount);
 
             var greeting = createElement("H3");
-            greeting.html("Hello " + name);
+            greeting.html("Hello "+ name);
             greeting.position(430,160);
 
         })
